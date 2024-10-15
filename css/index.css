@@ -1,0 +1,64 @@
+/* CSS Reset*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Colors */
+:root{
+	--main-color: #161616;
+	--secundary-color: #1C1C1C;
+	--white: #fafafa;
+	--blue: #0066FF;
+	--gray: #656565;
+}
+
+/* Profile container */
+.profile-container{
+  width: 500px;
+  height: 400px;
+  background-color: rgb(125, 125, 125);
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 20px; /* TODO: delete when finish */
+  margin-left: 10px;  /* TODO: delete when finish */
+}
+
+.cover{
+  width: 100%;
+  height: 120px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #656565;
+}
+
+.avatar{
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  background-color: white;
+  margin-top: -50px;
+  border: 4px solid #cfcfcf;
+}
+
+.info-profile{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info-profile>em{
+  text-align: center;
+}
+.icons-container{
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+  border-radius: 0px 0px 12px 12px;
+}
